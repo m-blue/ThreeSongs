@@ -14,7 +14,7 @@ public class SongTwoActivity extends AppCompatActivity {
     MediaPlayer mpSong;
     int playing = 0;
     TextView txtDescription;
-    String description = "  I have been a fan of Gorillaz for several years and this song is one of my faveorites" +
+    String description = "  I have been a fan of Gorillaz for at least a decade and this song is one of my favorites. " +
             "Just like in the name, there is a nice relaxing melancholy feel to the whole song." +
             "It's just a nice song man.";
 

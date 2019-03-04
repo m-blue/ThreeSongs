@@ -14,7 +14,7 @@ public class SongOneActivity extends AppCompatActivity {
     MediaPlayer mpSong;
     int playing = 0;
     TextView txtDescription;
-    String description = "  For Number 1, I gotta go with a classic. Especially with the new" +
+    String description = "  For number One, I gotta go with a classic. Especially with the new" +
             "movie currently in theaters, this song has been on my mind for the past several weeks";
     @Override
     protected void onCreate(Bundle savedInstanceState) {

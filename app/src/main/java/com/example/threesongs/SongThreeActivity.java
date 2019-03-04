@@ -14,9 +14,9 @@ public class SongThreeActivity extends AppCompatActivity {
     MediaPlayer mpSong;
     int playing = 0;
     TextView txtDescription;
-    String description = "  I knew about The Blind Guardian recently so I don't know much about their songs" +
-            "The bards song is based of JRR Tolkien's The Hobbit " +
-            "It's part 1 of 2.";
+    String description = "  I discovered about The Blind Guardian fairly recently so I haven't been able to check their whole discography." +
+            "Even so, The Bards Song is something I've been finding myself play on repeat." +
+            "The song is sort of a two-parter based of JRR Tolkien's The Hobbit";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
