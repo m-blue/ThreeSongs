@@ -22,7 +22,7 @@ public class SongTwoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_song_two);
-        btnPlay = findViewById(R.id.btnPlay3);
+        btnPlay = findViewById(R.id.btnPlay);
         btnBack = findViewById(R.id.btnBack);
         txtDescription = findViewById(R.id.txtDescription);
         btnPlay.setOnClickListener(bPlay);
@@ -35,6 +35,7 @@ public class SongTwoActivity extends AppCompatActivity {
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                mpSong.stop();
                 startActivity(new Intent(SongTwoActivity.this,MainActivity.class));
             }
         });

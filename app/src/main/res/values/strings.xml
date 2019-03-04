@@ -5,5 +5,7 @@
     <string name="btnSong3">Song 3</string>
     <string name="btnPlay">Play Song</string>
     <string name="txtSongTitle_Gorillaz">On Melancholy Hill by Gorillaz</string>
+    <string name="txtSongTitle_TBS">The Bards Song (In the Forest) by The Blind Guardian</string>
+    <string name="txtSongTitle_BR">Bohemian Rhapsody by Queen</string>
     <string name="btnBack">Back</string>
 </resources>
