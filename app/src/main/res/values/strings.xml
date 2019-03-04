@@ -4,4 +4,6 @@
     <string name="btnSong2">Song 2</string>
     <string name="btnSong3">Song 3</string>
     <string name="btnPlay">Play Song</string>
+    <string name="txtSongTitle_Gorillaz">On Melancholy Hill by Gorillaz</string>
+    <string name="btnBack">Back</string>
 </resources>

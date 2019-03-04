@@ -17,7 +17,7 @@ public class SongOneSplash extends AppCompatActivity {
             @Override
             public void run() {
                 finish();
-                startActivity(new Intent(SongOneSplash.this,MainActivity.class));
+                startActivity(new Intent(SongOneSplash.this,SongOneActivity.class));
 
             }
         };

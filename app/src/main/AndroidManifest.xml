@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SongOneActivity"></activity>
+        <activity android:name=".SongThreeActivity"></activity>
+        <activity android:name=".SongThreeSplash" />
+        <activity android:name=".SongTwoActivity" />
+        <activity android:name=".SongTwoSplash" />
+        <activity android:name=".SongOneActivity" />
         <activity android:name=".SongOneSplash" />
         <activity android:name=".SplashActivity">
             <intent-filter>
